@@ -28,8 +28,9 @@
 }
 
 .logoImg{
-  width: 80px;
+  width: 100px;
   padding: 10px;
+  padding-top: 20px;
 }
 
 /*-----------for a only ----------*/
@@ -58,7 +59,7 @@ a:active{
   font-size: 15px;
   margin: 20px;
   padding: 20px;
-  width: 200px;
+  width: 250px;
   border-radius: 10px;
 }
 
@@ -73,4 +74,27 @@ a:active{
   #titleWelcome::before{
   content: "Welcome!";
   }
+}
+
+/*------------- third page title ---------------*/
+@media (min-width: 550px){
+  #lovelyTitle::before{
+  content: "Our LOVELY Komuna members:";
+  font-style: italic;
+  }
+}
+
+@media (max-width: 549px){
+  #lovelyTitle::before{
+  content: "Our Komuna:";
+  font-style: italic;
+  }
+}
+
+
+/*----------- forth page navigation line ----------------------*/
+#nav{
+  background-color:black;
+  color:#051117;
+  text-align: center;
 }
