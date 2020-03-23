@@ -1,0 +1,29 @@
+/*---------grid navigation--------*/
+.gridNavigation{
+  display: grid;
+  padding: 20px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  grid-template-columns: 100px auto auto auto;
+  background-color: blue;
+}
+
+.NavigationItem{
+  background-color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10%;
+}
+
+.NavigationLogo{
+  background-color: white;
+  border-radius: 10%;
+  width: 100px;
+  align-content: center;
+}
+
+.logoImg{
+  width: 80px;
+  padding: 10px;
+}
