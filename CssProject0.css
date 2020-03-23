@@ -61,3 +61,16 @@ a:active{
   width: 200px;
   border-radius: 10px;
 }
+
+/*------------- first page title---------------*/
+@media (min-width: 550px){
+  #titleWelcome::before{
+  content: "Welcome to KFAR GALIM!";
+  }
+}
+
+@media (max-width: 549px){
+  #titleWelcome::before{
+  content: "Welcome!";
+  }
+}
